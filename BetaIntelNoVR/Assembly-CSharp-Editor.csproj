@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{098C4337-60EF-366F-4531-1B36155B84C3}</ProjectGuid>
+    <ProjectGuid>{FAB7D6AE-A2DB-39D8-CB7E-9A2341388AD6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -54,21 +54,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\NuitrackSDK\Platform Changer\Editor\PlatformChanger.cs" />
-     <Compile Include="Assets\Oculus\Avatar\Editor\AvatarMaterialEditor.cs" />
-     <Compile Include="Assets\Oculus\Platform\Editor\GUIHelper.cs" />
-     <Compile Include="Assets\Oculus\Platform\Editor\OculusPlatformSettingsEditor.cs" />
-     <Compile Include="Assets\Oculus\Platform\Editor\OculusStandalonePlatformResponse.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>D:/Developer/Unity/BetaIntel/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/avega/Documents/Developer/Unity/BetaIntelNoVR/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/Developer/Unity/BetaIntel/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/avega/Documents/Developer/Unity/BetaIntelNoVR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/Developer/Unity/BetaIntel/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/avega/Documents/Developer/Unity/BetaIntelNoVR/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Developer/Unity/BetaIntel/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/avega/Documents/Developer/Unity/BetaIntelNoVR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -311,7 +307,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="nuitrack.net">
- <HintPath>D:/Developer/Unity/BetaIntel/Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll</HintPath>
+ <HintPath>C:/Users/avega/Documents/Developer/Unity/BetaIntelNoVR/Assets/NuitrackSDK/Nuitrack/NuitrackAssembly/nuitrack.net.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/avega/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -358,13 +354,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{0C048F9F-A870-9A39-BD76-36A45EA1D7B0}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
-    <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{06465450-AA32-54B3-7DCF-0E4E1E20CDB3}</Project>      <Name>Oculus.VR.Editor</Name>    </ProjectReference>
-    <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{4732D0AC-C8AD-5FF9-1526-2AC8D6383CB2}</Project>      <Name>Oculus.VR.Scripts.Editor</Name>    </ProjectReference>
-    <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{7C00788A-7B34-AD25-35A4-2B1711D8825B}</Project>      <Name>Oculus.VR</Name>    </ProjectReference>
+      <Project>{DFCA43AE-1CA6-5F7C-9C30-174D0ADFADCB}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

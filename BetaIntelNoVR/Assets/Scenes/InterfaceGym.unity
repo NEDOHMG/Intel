@@ -2442,7 +2442,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &363255633
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4209,6 +4209,7 @@ GameObject:
   - component: {fileID: 584966910}
   - component: {fileID: 584966911}
   - component: {fileID: 584966912}
+  - component: {fileID: 584966914}
   - component: {fileID: 584966913}
   m_Layer: 0
   m_Name: Intel
@@ -4303,9 +4304,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 584966909}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb676fdbf8b921a4699e0fa0b8a0ec22, type: 3}
+  m_Script: {fileID: 11500000, guid: 1126736aabd618e47bfbe82f8cd183f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  portName: 2
+  baudRate: 2
+--- !u!114 &584966914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 584966909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21f2864524eb8364aba4ef6045c328f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serialHandler: {fileID: 584966913}
 --- !u!1 &613748460
 GameObject:
   m_ObjectHideFlags: 0
